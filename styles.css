@@ -1,0 +1,68 @@
+/* Timber Green
+#1E342D
+
+Submarine
+#BECBCB
+
+Oslo Gray
+#829394
+
+Granny Smith
+#849C95 
+
+*/
+
+:root {
+    --text-title: #BECBCB; 
+    --text-subt: #829394;
+    --bg-color: #1E342D;
+    --bg-color2: #849C95;
+}
+
+html {
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+    width: 100vw ;
+    
+}
+
+h1, h2 {
+    color: var(--text-title);
+    text-align: center;
+}
+#img-div {
+    text-align: center;
+    width: 600px;
+    height: 600px;   
+    margin: auto;
+    background-color: var(--bg-color2);
+    
+}
+img{
+    display: block;
+    margin: auto;    
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+}
+#img-div p {
+    color: var(--bg-color);
+    padding-bottom: 5px;
+    
+    
+}
+p{
+    color: var(--text-subt);
+}
+footer {
+    text-align: center;
+    color: var(--text-subt);
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: var(--text-subt);
+}
